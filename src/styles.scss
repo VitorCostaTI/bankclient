@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+:host {
+    display: block;
+}
+
+.card-header {
+    width: 100%;
+    height: 180px;
+    background: rgb(20, 159, 6);
+    background: linear-gradient(90deg, rgba(20, 159, 6, 1) 0%, rgba(49, 197, 7, 1) 50%, rgba(20, 159, 6, 1) 100%);
+}
+
+.container {
+    width: 100%;
+    margin: 15px;
+}
