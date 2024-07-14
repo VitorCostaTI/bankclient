@@ -3,11 +3,12 @@
     background: whitesmoke !important;
 }
 
-.container {
+.container-home {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     margin-top: -105px;
+    margin-bottom: 50px;
 }
 
 .card {
@@ -31,4 +32,13 @@
 .card span {
     font-weight: 500;
     font-size: 20px;
+}
+
+.card-table {
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 0.5px solid #bdbcbc;
+    margin-bottom: 50px;
 }
