@@ -3,6 +3,7 @@ import { MainHeaderComponent } from '../../main-header/main-header.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatTableModule } from '@angular/material/table';
 import { IconTransferComponent } from '../../icon-transfer/icon-transfer.component';
+import { MatButtonModule } from '@angular/material/button';
 
 export interface PeriodicElement {
   name: string;
@@ -27,7 +28,13 @@ const ELEMENT_DATA: PeriodicElement[] = [
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [MainHeaderComponent, MatTableModule, MatCardModule, IconTransferComponent],
+  imports: [
+    MainHeaderComponent,
+    MatTableModule,
+    MatButtonModule,
+    MatCardModule,
+    IconTransferComponent
+  ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })

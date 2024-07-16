@@ -42,3 +42,37 @@
     border: 0.5px solid #bdbcbc;
     margin-bottom: 50px;
 }
+
+.card-icons {
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 0.5px solid #bdbcbc;
+    margin-bottom: 50px;
+}
+
+.icons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+button {
+    margin: 45px;
+    background: whitesmoke;
+    width: 150px;
+    height: 60px;
+    color: black;
+}
+
+p{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+svg {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+  }
