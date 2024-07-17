@@ -1,27 +1,38 @@
-# Bankclient
+![img](/capa/dashboard.png "Capa Projeto")
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
+# Simulador Internet Banking - BankNet
 
-## Development server
+Este projeto é desenvolvido com Angular.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Iniciando Scripts.
 
-## Code scaffolding
+* Comece instalando as dependências do projeto:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```cmd
+npm install
+```
 
-## Build
+* Para iniciar o FrontEnd basta executar o comando de start do angular.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```cmd
+ng serve
+```
 
-## Running unit tests
+ou 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```cmd
+npm start
+```
 
-## Running end-to-end tests
+* Esta documentação está em constante mudança então lembre-se de mante-la sempre atualizada e seguir as dicas aqui disponiveis.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Software.
 
-## Further help
+* O Back End deste projeto está disponivel em outro [repositório](https://github.com/VitorCostaTI/bankserver), de meu perfil.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* Todos os dados aqui apresentados são meramente ilustrativos
+
+---
+
+Obrigado .\
+Made with :heart: by **Vitor Costa** - [Linkedin](https://www.linkedin.com/in/vitor-costa-10566b22a/)
