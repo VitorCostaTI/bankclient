@@ -2,33 +2,33 @@
 
 # Simulador Internet Banking - BankNet
 
-Este projeto é desenvolvido com Angular.
+Este projeto é desenvolvido com [Angular](https://github.com/angular/angular).
 
 ## Iniciando Scripts.
 
 * Comece instalando as dependências do projeto:
 
-```cmd
-npm install
+```bash
+$ npm install
 ```
 
 * Para iniciar o FrontEnd basta executar o comando de start do angular.
 
-```cmd
-ng serve
+```bash
+$ ng serve
 ```
 
 ou 
 
-```cmd
-npm start
+```bash
+$ npm start
 ```
 
 * Esta documentação está em constante mudança então lembre-se de mante-la sempre atualizada e seguir as dicas aqui disponiveis.
 
 ## Software.
 
-* O Back End deste projeto está disponivel em outro [repositório](https://github.com/VitorCostaTI/bankserver), de meu perfil.
+* O back-end deste projeto está disponivel em outro [repositório](https://github.com/VitorCostaTI/bankserver), de meu perfil.
 
 * Todos os dados aqui apresentados são meramente ilustrativos
 
